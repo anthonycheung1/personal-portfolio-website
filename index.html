@@ -17,11 +17,15 @@
   </head>
 
   <body>
-
-    <!-- Main site navigation -->
     <header>
-      <!-- Main navigation links -->
-      <nav>
+      <!-- Main site navigation -->
+      <nav aria-label="Main navigation">
+        <!-- Button used to open and close the navigation menu on mobile devices -->
+        <button id="menu-button" type="button" aria-expanded="false" aria-controls="nav-menu">
+          Menu
+        </button>
+
+        <!-- Main navigation links -->
         <ul id="nav-menu">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About Me</a></li>
@@ -64,8 +68,8 @@
 
             <!-- Links to the live project and source code -->
             <div>
-              <p><a href="#">View project</a></p>
-              <p><a href="#">View source</a></p>
+              <p><a href="https://anthonycheung1.github.io/personal-portfolio-website/" target="_blank">View project</a></p>
+              <p><a href="https://github.com/anthonycheung1/personal-portfolio-website/" target="_blank">View source</a></p>
             </div>
           </article>
         </div>
@@ -87,6 +91,7 @@
       <p>&copy; 2026 Anthony. All rights reserved.</p>
     </footer>
 
+    <!-- External JavaScript file -->
+    <script src="script.js"></script>
   </body>
-
 </html>
